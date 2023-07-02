@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
+we founded Black Rain Sec in 2019
 
 We are a leading cybersecurity company, dedicated to providing cutting-edge solutions and services to safeguard businesses and individuals from ever-evolving digital threats. Our expertise lies in developing robust systems that fortify the security infrastructure of organizations across various industries, ensuring the protection of sensitive data and critical assets.
 

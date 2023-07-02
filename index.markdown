@@ -6,7 +6,8 @@ layout: page
 ---
 Our cyber security solutions encompass a comprehensive range of measures designed to safeguard your digital infrastructure. We employ advanced techniques such as threat detection, encryption, and access control to protect your systems and data from unauthorized access and malicious activities. Our team of skilled professionals conducts regular audits and vulnerability assessments to identify and address potential weaknesses, ensuring that your network remains secure and resilient against evolving threats.
 
-as a company we are open to personal inquiries that best suit your companies needs
+as a company we are open to personal inquiries that best suit your companies needs and some of our most notable services are as follows:
+
 
 
 • Security audits: Our cyber security solutions include comprehensive audits that cover various aspects such as social engineering campaigns, network assessments, and evaluations of IoT (Internet of Things) devices.

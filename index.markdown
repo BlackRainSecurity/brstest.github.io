@@ -9,4 +9,5 @@ Our cyber security solutions encompass a comprehensive range of measures designe
 as a company we are open to personal inquiries that best suit your companies needs
 
 • security audits (social engineering campaigns, networks, IoT and many other services)
+
 • compliance and regulations

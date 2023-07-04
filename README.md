@@ -1,2 +1,2 @@
-#brstest.github.io/
+#brstest.github.io
 Black Rain Security

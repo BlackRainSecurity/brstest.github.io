@@ -5,7 +5,7 @@ permalink: /solutions/
 ---
 ### our solutions ###
 ---
-1. Linux Services:
+    1. Linux Services:
         ◦ Linux server setup, configuration, and administration
         ◦ Troubleshooting and resolving Linux-related issues
 

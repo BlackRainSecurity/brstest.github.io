@@ -23,17 +23,17 @@ permalink: /solutions/
         * Cryptographic consulting and key management strategies
           
     4. Penetration Testing:
-        ◦ Educating organizations on social engineering risks and prevention
-        ◦ Conducting simulated social engineering exercises to assess employee awareness
-        ◦ In-depth penetration testing to identify and address vulnerabilities
-        ◦ Customized testing for specific applications, networks, or systems
-        ◦ Investigating and analyzing digital evidence for legal and security purposes
-        ◦ Data recovery and analysis in cases of cyber incidents or data breaches
-        ◦ Gathering and analyzing publicly available information to support investigations
-        ◦ Utilizing OSINT for threat intelligence and risk assessment
+        * Educating organizations on social engineering risks and prevention
+        * Conducting simulated social engineering exercises to assess employee awareness
+        * In-depth penetration testing to identify and address vulnerabilities
+        * Customized testing for specific applications, networks, or systems
+        * Investigating and analyzing digital evidence for legal and security purposes
+        * Data recovery and analysis in cases of cyber incidents or data breaches
+        * Gathering and analyzing publicly available information to support investigations
+        * Utilizing OSINT for threat intelligence and risk assessment
   
         
     5. Virtualization Solutions:
-        ◦ Virtualization technology deployment and configuration
-        ◦ Virtual machine management and support
+        * Virtualization technology deployment and configuration
+        * Virtual machine management and support
   

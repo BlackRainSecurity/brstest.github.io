@@ -3,27 +3,98 @@ layout: page
 title: About
 permalink: /about/
 ---
+
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Green Binary Rain</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>About Us</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            font-family: monospace;
+            background-color: black;
+            color: lime;
+        }
+
+        .matrix-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        .matrix-character {
+            position: absolute;
+            font-size: 20px;
+            opacity: 0.1;
+        }
+    </style>
 </head>
 <body>
-    <div class="binary-rain-container">
-        <!-- Binary characters will be dynamically added here -->
-    </div>
+    <header>
+        <h1>About Our Company</h1>
+    </header>
 
-    <script src="script.js"></script>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Our Mission</h2>
+            <p>We are dedicated to providing high-quality solutions that address your cybersecurity needs.</p>
+        </section>
+
+        <section>
+            <h2>Our Team</h2>
+            <p>We have a team of experienced cybersecurity experts who are passionate about securing your digital assets.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Your Company Name. All rights reserved.</p>
+    </footer>
+
+    <div class="matrix-container" id="matrixContainer"></div>
+
+    <script>
+        const matrixContainer = document.getElementById("matrixContainer");
+
+        // Create falling characters
+        function createMatrixCharacter() {
+            const character = document.createElement("span");
+            character.className = "matrix-character";
+            character.textContent = getRandomUnicode();
+            character.style.left = Math.random() * 100 + "vw";
+            character.style.animationDuration = Math.random() * 2 + 1 + "s";
+            matrixContainer.appendChild(character);
+            setTimeout(() => {
+                matrixContainer.removeChild(character);
+            }, 5000);
+        }
+
+        // Get a random Unicode character in the range of binary digits
+        function getRandomUnicode() {
+            const binaryDigits = "01";
+            return "&#x" + (Math.floor(Math.random() * binaryDigits.length)).toString(16).toUpperCase() + ";";
+        }
+
+        // Create falling characters at intervals
+        setInterval(createMatrixCharacter, 100);
+
+    </script>
 </body>
 </html>
-we founded Black Rain Sec in 2019
 
-We are a leading cybersecurity company, dedicated to providing cutting-edge solutions and services to safeguard businesses and individuals from ever-evolving digital threats. Our expertise lies in developing robust systems that fortify the security infrastructure of organizations across various industries, ensuring the protection of sensitive data and critical assets.
 
-At our core, we prioritize proactive measures to counteract cyber threats before they can cause harm. Our team of highly skilled cybersecurity professionals stays ahead of the game by constantly monitoring the evolving threat landscape. By conducting thorough risk assessments and vulnerability analyses, we identify potential weak points in our clients' networks and systems, enabling us to implement tailored security solutions that address their specific needs.
-
-In today's interconnected world, the protection of personal and confidential information is of utmost importance. We understand the value of privacy and work tirelessly to maintain the trust our clients place in us. Our comprehensive suite of services includes data encryption, secure communication channels, and advanced access control mechanisms, ensuring the confidentiality and integrity of information in transit and at rest.
 
 
 
